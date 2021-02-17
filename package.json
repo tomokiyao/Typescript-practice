@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tomokiyao/Typescript-practice/issues"
   },
-  "homepage": "https://github.com/tomokiyao/Typescript-practice#readme"
+  "homepage": "https://github.com/tomokiyao/Typescript-practice#readme",
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  }
 }
