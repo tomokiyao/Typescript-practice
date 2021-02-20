@@ -1,0 +1,24 @@
+export {};
+
+class Person {
+  name: string;
+  age: number;
+
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+
+  profile(): string {
+    return `name: ${this.name}, age: ${this.age}`;
+  }
+}
+let taro = new Person('taro', 20);
+
+// #ERROR
+// let hanako = new Person(false, 20);
+
+console.log(taro);
+console.log({ name: taro.name });
+console.log({ age: taro.age });
+console.log(taro.profile());
